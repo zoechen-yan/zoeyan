@@ -10,6 +10,7 @@ import WeeklyRhythm from './pages/WeeklyRhythm';
 import Settings from './pages/Settings';
 import EmptyNight from './pages/EmptyNight';
 import Onboarding from './pages/Onboarding';
+import TimeZoneClock from './pages/TimeZoneClock';
 import './index.css';
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
         <Route path="/weekly" element={<WeeklyRhythm tasks={tasks} />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/empty-night" element={<EmptyNight />} />
+        <Route path="/world-time" element={<TimeZoneClock />} />
       </Routes>
     </BrowserRouter>
   );
